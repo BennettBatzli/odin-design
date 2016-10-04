@@ -1,0 +1,69 @@
+body {
+	color: #aaa;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.navbar {
+	height: 50px;
+	background-color: #222;
+}
+
+.logo-box {
+	display: inline-block;
+	margin: 0 0 0 5%;
+}
+
+.logo-box a {
+	display: inline-block;
+	
+	font-size: 20px;
+	font-variant: small-caps;
+    letter-spacing: 1px;
+	text-decoration: none;
+	color: #aaa;
+}
+
+.logo-image {
+	display: inline-block;
+	position: relative;
+    top: 8px;
+	height: 30px;
+	width: 30px;
+}
+
+.logo-text {
+	font-family: "Palatino Linotype", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.searchbar-form {
+	display: inline-block;
+	margin: 0 30px 0 0;
+}
+
+.searchbar {
+	padding: 6px 24px;
+	border-radius: 30px;
+	/*background: #fcfcfc url(//s.swiftypecdn.com/assets/embed/embed_mag-d3b2cb82d2a6506302e2f484b27a40de.png) no-repeat 7px 7px;*/
+}
+
+ul {
+	display: inline;
+	float: right;
+	margin-right: 5%;
+}
+
+li {
+	display: inline;
+}
+
+li a {
+	display: inline-block;
+	text-decoration: none;
+	padding: 14px 30px 0 0;
+	color: #aaa;
+}
+
+li a:hover {
+	color: white;
+}
+
