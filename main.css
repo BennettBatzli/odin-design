@@ -3,14 +3,48 @@ body {
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+h1 {
+	font-size: 38.5px;
+	font-weight: bold;
+	text-align: center;
+	text-rendering: optimizelegibility;
+}
+
+h2 {
+	font-size: 31.5px;
+	font-weight: bold;
+	margin-bottom: 1.2em;
+	margin-top: 1.2em;
+}
+
+p {
+	margin-bottom: 1.2em;
+	margin-top: 1.2em;
+}
+
+.container {
+	width: 1170px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
 .navbar {
 	height: 50px;
 	background-color: #222;
+	position: fixed;
+	z-index: 100;
+	top: 0;
+	right: 0;
+	left: 0;
+}
+
+.nav-spacer {
+	padding-top: 51px;
 }
 
 .logo-box {
 	display: inline-block;
-	margin: 0 0 0 5%;
+	/*margin: 0 0 0 20%;*/
 }
 
 .logo-box a {
@@ -46,24 +80,108 @@ body {
 	/*background: #fcfcfc url(//s.swiftypecdn.com/assets/embed/embed_mag-d3b2cb82d2a6506302e2f484b27a40de.png) no-repeat 7px 7px;*/
 }
 
-ul {
+.right-nav {
 	display: inline;
 	float: right;
-	margin-right: 5%;
+	/*margin-right: 20%;*/
 }
 
-li {
+.right-nav li {
 	display: inline;
 }
 
-li a {
+.right-nav li a {
 	display: inline-block;
 	text-decoration: none;
 	padding: 14px 30px 0 0;
 	color: #aaa;
 }
 
-li a:hover {
+.right-nav li a:hover {
 	color: white;
 }
+
+.inner-nav-container {
+	position: fixed;
+	z-index: 10;
+	background-color: #fff;
+	width: 100%;
+	top: 50px;
+	font-size: .75em;
+	display: inline-block;
+	box-shadow: 3px 6px 9px #fff;
+}
+
+.inner-nav {
+	opacity: .5;
+	padding: 8px ;
+}
+
+.inner-nav:hover {
+	opacity: 1;
+
+}
+
+.inner-nav a {
+	text-decoration: none;
+	color: #08c;
+}
+
+.individual-lesson {
+	color: #333;
+	line-height: 1.5;
+	font-size: 1.25em;
+	margin: 2em auto;
+}
+
+.individual-lesson .container {
+	position: relative;
+	z-index: 1;
+	max-width: 32em;
+}
+
+.individual-lesson .container ul {
+	display: block;
+	list-style: disc;
+	margin: 0 0 10px 25px;
+ 	padding: 0;
+}
+
+.individual-lesson .container ul li {
+	display: list-item;
+	/*text-align: -webkit-match-parent;*/
+}
+
+.individual-lesson .container ol {
+	display: block;
+	list-style: decimal;
+	margin: 0 0 10px 25px;
+ 	padding: 0;
+}
+
+.individual-lesson .container ol li {
+	display: list-item;
+	/*text-align: -webkit-match-parent;*/
+}
+
+.chat-link-container {
+	text-align: center;
+	margin: 50px 0;
+	border-radius: 4px;
+	background-color: #5bb75b;
+	
+}
+
+.chat-link-container:hover {
+	background-color: #51a351;
+}
+.chat-link-container a {
+	font-size: 1.25em;
+	display: block;
+	width: 100%;
+	padding: 10px 10px;
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.25)
+}	
 
